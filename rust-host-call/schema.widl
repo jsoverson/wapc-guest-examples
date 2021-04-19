@@ -1,0 +1,5 @@
+namespace "greeting"
+
+interface {
+  callback(binding: string, namespace: string, operation: string, msg: string): string
+}
